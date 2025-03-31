@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetWeatherResponse xmlns="http://example.com/weather">
+      <cityCode>NYC</cityCode>
+      <temperature>72</temperature>
+      <humidity>65</humidity>
+      <windSpeed>10</windSpeed>
+      <forecast>Sunny</forecast>
+      <success>true</success>
+    </GetWeatherResponse>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,26 @@
+{
+  "name": "playwright-soap-api",
+  "version": "1.0.0",
+  "description": "A Playwright API project for making SOAP requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [
+    "playwright",
+    "soap",
+    "api",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "handlebars": "^4.7.8"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    {{#if sessionId}}
+    <SessionHeader xmlns="http://example.com/services">
+      <sessionId>{{sessionId}}</sessionId>
+    </SessionHeader>
+    {{/if}}
+  </soap:Header>
+  <soap:Body>
+    <GetWeatherRequest xmlns="http://example.com/weather">
+      <cityCode>{{cityCode}}</cityCode>
+      <country>{{country}}</country>
+      <date>{{date}}</date>
+    </GetWeatherRequest>
+  </soap:Body>
+</soap:Envelope>
